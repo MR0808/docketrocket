@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: 'DocketRocket | The number one platform for digital receipts',
+    title: 'DocketRockit | The number one platform for digital receipts',
     description: 'Coming soon'
 };
 

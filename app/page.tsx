@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { Quicksand, Jost } from 'next/font/google';
+import { Archivo, Jost } from 'next/font/google';
 
-const quicksand = Quicksand({ subsets: ['latin'] });
+const archivo = Archivo({ subsets: ['latin'] });
 const jost = Jost({ subsets: ['latin'] });
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
                         src="/DR_Black.png"
                         width={120}
                         height={120}
-                        alt="DocketRocket"
+                        alt="DocketRockit"
                         sizes="(max-width: 640px) 100vw,(max-width: 1024px) 50vw, 33vw"
                     />
                 </div>
@@ -21,14 +21,14 @@ export default function Home() {
             <div className="bg-black md:container text-green-700 flex flex-col-reverse md:flex-row md:mx-auto pt-20 justify-between md:space-x-10">
                 <div className="md:w-1/2 flex flex-col p-3 md:p-0 text-center md:text-left">
                     <h1
-                        className={`${quicksand.className}  text-5xl md:text-8xl font-bold md:leading-[115px] pb-10 md:pb-16`}
+                        className={`${archivo.className}  text-5xl md:text-8xl font-bold md:leading-[115px] pb-10 md:pb-16`}
                     >
                         Introducing
                     </h1>
                     <h1
-                        className={`${quicksand.className} text-5xl md:text-8xl font-bold md:leading-[115px] md:pb-20 pb-10`}
+                        className={`${archivo.className} text-5xl md:text-8xl font-bold md:leading-[115px] md:pb-20 pb-10`}
                     >
-                        DocketRocket
+                        DocketRockit
                     </h1>
                     <p className={`${jost.className} text-2xl pb-5 md:pb-10`}>
                         No more searching through your emails to find that
@@ -47,7 +47,7 @@ export default function Home() {
                         src="/back.png"
                         width={500}
                         height={500}
-                        alt="DocketRocket"
+                        alt="DocketRockit"
                         sizes="(max-width: 640px) 100vw,(max-width: 1024px) 50vw, 33vw"
                         className="mx-auto px-10"
                     />
